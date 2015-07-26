@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## To create an inversable matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -22,7 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## To inverse a matrix and if the matrix has been inversed, return the cache inversed 
+## else inverse it and save the inversed matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
